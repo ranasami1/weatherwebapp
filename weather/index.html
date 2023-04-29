@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    
+    <title>Weather</title>
+</head>
+<body>
+    <div class="main">
+
+        <div class="search">
+            <input id=city type="text" placeholder="Search" onclick="reloaded()" autofocus>
+            <img id=find src="search.png" height="30px" width="30px" onclick="clicking()">
+        </div>
+        <div class="grid1">
+            <div class="square">
+                <div>
+                    <h2 class="temp">15<span>°</span>C</h2>
+                </div>    
+                <div>
+                    <h3>City Name</h3>
+                    <h3 class="status">Rainy</h3>
+                </div>
+            </div>
+            <img id=icon src="umbrella.png">
+        </div>
+
+            <div class="grid2">
+                <div>
+                    <h3>Feels Like <span>°C</span></h3>
+                </div>
+                <div>    
+                    <h3 id="humi">Humidity <span>%</span></h3>
+                   
+                </div>
+
+                <div>
+                    <h3>Wind Speed <span> Km/h</span></h3>
+                </div>
+                <div>    
+                    <h3>Clouds</h3>
+                    
+                </div>
+            </div>
+    </div>
+</body>
+</html>
