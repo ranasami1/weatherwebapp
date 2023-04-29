@@ -28,7 +28,7 @@ function clicking(){
          else if(data.weather[0].main == "Clear"){
             icon.src = "flowers.png"
          }
-         else if(data.weather[0].main == "Drizzle"){
+         else if(data.weather[0].main == "Mist"){
             icon.src = "haze.png"
 
     }
